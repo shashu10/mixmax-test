@@ -4,8 +4,8 @@
   "description": "Giphy link resolver for Mixmax",
   "main": "server.js",
   "scripts": {
-    "ts": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
-    "start": "nodemon server.js"
+    "dev": "tsc -w | nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
