@@ -1,0 +1,40 @@
+{
+  "name": "giphy-example-link-resolver",
+  "version": "0.0.1",
+  "description": "Giphy link resolver for Mixmax",
+  "main": "server.js",
+  "scripts": {
+    "ts": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mixmaxhq/giphy-example-link-resolver.git"
+  },
+  "author": "Chanpory Rith <chanpory@mixmax.com> (https://mixmax.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixmaxhq/giphy-example-link-resolver/issues"
+  },
+  "homepage": "https://github.com/mixmaxhq/giphy-example-link-resolver",
+  "dependencies": {
+    "aws-sdk": "^2.22.0",
+    "body-parser": "^1.12.2",
+    "cors": "^2.7.1",
+    "express": "^4.12.3",
+    "libxmljs": "^0.18.4",
+    "parse5": "^3.0.2",
+    "pem": "^1.9.4",
+    "request": "^2.64.0",
+    "underscore": "^1.8.3",
+    "xmldom": "^0.1.27",
+    "xmlserializer": "^0.6.0",
+    "xpath": "0.0.23"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "nodemon": "^1.7.1",
+    "ts-node": "^2.1.0",
+    "typescript": "^2.2.1"
+  }
+}
